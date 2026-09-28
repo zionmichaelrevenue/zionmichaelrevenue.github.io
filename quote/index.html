@@ -4,36 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Request a Quote | Zion Michael Group</title>
-<meta name="description" content="Tell us about your project, service interest, and timeline.">
+<meta name="description" content="Request a Quote | Zion Michael Group">
 <link rel="icon" href="/assets/logo.png">
-<link rel="stylesheet" href="/css/styles-boilerplate.css">
-<link rel="stylesheet" href="/css/services.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<script src="/js/services-navigation.js" defer></script>
-<script src="/js/services-config.js" defer>
-</script>
-<script src="/js/booking.js" defer>
+<link rel="stylesheet" href="/css/styles-boilerplate.css">
+<script src="/js/site.js" defer>
 </script>
 <script src="/js/quote.js" defer>
 </script>
 </head>
-<body class="services-page">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header>
-  <nav aria-label="Main navigation">
-    <div class="container">
-      <h1 class="logo"><a href="/">Zion Michael<br><span>Group</span></a></h1>
-      <ul class="site-nav" id="site-navigation">
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/html/members.html">Clients</a></li>
-        <li><a href="/html/publications.html">Publications</a></li>
-        <li><a href="/html/updates.html">Updates</a></li>
-      </ul>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation"><span class="hamburger"></span></button>
-    </div>
-  </nav>
+<header class="site-header">
+<nav class="container" aria-label="Main navigation">
+<a class="logo" href="/">Zion Michael<span>Group</span>
+</a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false">
+<span class="hamburger">
+</span>
+</button>
+<ul class="site-nav" id="site-navigation">
+<li>
+<a href="/services/">Services</a>
+</li>
+<li>
+<a href="/html/members.html">Clients</a>
+</li>
+<li>
+<a href="/html/publications.html">Publications</a>
+</li>
+<li>
+<a href="/html/updates.html">Updates</a>
+</li>
+<li>
+<a class="btn-primary" href="/quote/">Request a Quote</a>
+</li>
+</ul>
+</nav>
 </header>
 <main id="main">
 <section class="info">
@@ -41,7 +50,8 @@
 <h1>Tell us what<br>you have in mind.</h1>
 <p class="tagline">Share your scope and we’ll work out the right next step. Fields marked * are required.</p>
 </section>
-<section class="content-stats form-section"><div class="container service-section">
+<section class="content-stats form-section">
+<div class="container service-section">
 <form id="quote-form" action="https://formsubmit.co/micheldeosaran@proton.me" method="POST">
 <input type="hidden" name="_subject" value="New Zion Michael Group quote request">
 <input type="hidden" name="_template" value="table">
@@ -95,12 +105,53 @@
 <button class="btn-primary" type="submit">Submit quote request</button>
 </form>
 <noscript>Please enable JavaScript to select your service tier and submit a quote request.</noscript>
-</div></section>
+</div>
+</section>
 </main>
 <footer class="footer">
-  <div class="footer__addr"><address><h4>Zion Michael Group</h4>Toronto, ON, Canada<br><br><a class="footer__btn" href="mailto:micheldeosaran@proton.me">Contact Us</a></address></div>
-  <ul class="footer__nav"><li class="nav__item"><h2 class="nav__title">Services</h2><ul class="nav__ul"><li><a href="/services/bdr/">BDR Services</a></li><li><a href="/services/product/">Digital Product Services</a></li><li><a href="/services/automation/">Business Automation</a></li></ul></li></ul>
-  <div class="legal"><p>© 2026 Zion Michael Group. All rights reserved.</p></div>
+<div class="container footer-grid">
+<div>
+<a class="logo" href="/">Zion Michael<span>Group</span>
+</a>
+<p>Toronto, ON, Canada</p>
+<a href="mailto:micheldeosaran@proton.me">micheldeosaran@proton.me</a>
+</div>
+<div>
+<h2>Services</h2>
+<ul>
+<li>
+<a href="/services/bdr/">BDR Services</a>
+</li>
+<li>
+<a href="/services/product/">Digital Product Services</a>
+</li>
+<li>
+<a href="/services/automation/">Business Automation</a>
+</li>
+</ul>
+</div>
+<div>
+<h2>Explore</h2>
+<ul>
+<li>
+<a href="/html/members.html">Clients</a>
+</li>
+<li>
+<a href="/html/publications.html">Publications</a>
+</li>
+<li>
+<a href="/html/updates.html">Updates</a>
+</li>
+<li>
+<a href="/quote/">Request a Quote</a>
+</li>
+<li>
+<a href="https://cal.com/michel-mz/30min">Book a 30-min Call</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="container legal">© 2026 Zion Michael Group. All rights reserved.</div>
 </footer>
 </body>
 </html>

@@ -1,81 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <!-- ================================
-         META & PAGE SETTINGS
-    ================================= -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Home | Zion Michael Group</title>
-  <link rel="icon" type="image/png" href="../assets/logo.png">
-  <!-- ================================
-         STYLESHEETS
-    ================================= -->
-  <link rel="stylesheet" type="text/css" href="./css/styles-boilerplate.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Zion Michael Group</title>
+<meta name="description" content="Home | Zion Michael Group">
+<link rel="icon" href="/assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles-boilerplate.css">
+<script src="/js/site.js" defer>
+</script>
+<script src="https://embed.typeform.com/next/embed.js" defer>
+</script>
 </head>
-
 <body>
-  <!-- ================================
-         HEADER & NAVIGATION
-    ================================= -->
-  <header>
-    <nav>
-      </h1>
-      <div class="container">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<nav class="container" aria-label="Main navigation">
+<a class="logo" href="/">Zion Michael<span>Group</span>
+</a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false">
+<span class="hamburger">
+</span>
+</button>
+<ul class="site-nav" id="site-navigation">
+<li>
+<a href="/services/">Services</a>
+</li>
+<li>
+<a href="/html/members.html">Clients</a>
+</li>
+<li>
+<a href="/html/publications.html">Publications</a>
+</li>
+<li>
+<a href="/html/updates.html">Updates</a>
+</li>
+<li>
+<a class="btn-primary" href="/quote/">Request a Quote</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id="main">
 
-        <h1 class="logo">
-          <a href="./index.html">
-            <div 
-              style="display: block; margin-top: 10px; margin-bottom: 20px;"
-            >Zion Michael<div>
-            <span>Group<br></span>
-          </a>
-        </h1>
 
-        <ul class="site-nav">
-          <li><a href="/services/"><i class="fa fa-home site-nav--icon"></i>Services</a></li>
-          <li><a href="./html/members.html"><i class="fa fa-info site-nav--icon"></i>Clients</a></li>
-          <li><a href="./html/publications.html"><i class="fa fa-pencil site-nav--icon"></i>Publications</a></li>
-          <li><a href="./html/updates.html"><i class="fa fa-pencil site-nav--icon"></i>Updates</a></li>
-        </ul>
-
-        <div class="menu-toggle">
-          <div class="hamburger"></div>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-
-  <!-- ================================
-         HERO / INFO SECTION
-    ================================= -->
+  
   <section class="info">
-    <p class="tagline">
+<h1>Helping Businesses<br>Grow Through Sales.</h1>
+<p class="tagline">
   We help businesses reach more customers with targeted outreach, qualified lead
   generation, and sales strategies designed to increase revenue.
-    </p>
-    <h1>Helping Businesses<br>Grow Through Sales.</h1> 
+    </p> 
       <div class="actions">
         <a class="btn-primary" href="/services/">Explore Services</a>
-        <a class="btn-secondary" href="./html/members.html">Clients</a>
+        <a class="btn-secondary" href="/quote/">Request a Quote</a>
     </div>
   </section>
 
-  <!-- ================================
-         BANNER / ANIMATION SECTION
-    ================================= -->
-  <!-- <div class="banner">
-    <div id="stage-container">
-      <div id="stage"></div>
-    </div>
-  </div> -->
+  
+  
   <div class="banner">
   <video 
     class="hero-video"
@@ -88,12 +74,10 @@
   </video>
 </div>
 
-  <!-- ================================
-         CONTENT
-    ================================= -->
+  
     <section class="content-stats">
       <div class="container">
-        <!-- Column 1: Text -->
+        
         <div class="content-text">
           <h2>About Us</h2>
           <p>
@@ -115,7 +99,7 @@
           </p>
         </div>
     
-        <!-- Column 2: Statistics -->
+        
         <div class="content-stats-boxes">
           <div class="stat-box">
             <div class="stat-number">2026</div>
@@ -149,85 +133,60 @@
         </div>
       </div>
     </section>
-  <!-- ================================
-         FOOTER
-    ================================= -->
-      <footer class="footer">
-        <div class="footer__addr">
-          <h1><span></span></h1>
-          <address>
-            <h4>Zion Michael Group</h4>
-            Toronto, ON, Canada<br><br>
-              <a class="footer__btn" href="mailto:mdeosaran1@learn.athabascau.ca@gmail.com">Contact the Coordinator</a>
-          </address>
-        </div>
-      
-        <ul class="footer__nav">
-          <li class="nav__item">
-            <!-- <h2 class="nav__title">Media</h2> -->
-            <ul class="nav__ul">
-              <!-- <li><a href="#">Online</a></li>
-                <li><a href="#">Print</a></li>
-                <li><a href="#">Alternative Ads</a></li> -->
-            </ul>
-          </li>
-          <li class="nav__item nav__item--extra">
-            <!-- <h2 class="nav__title">Technology</h2> -->
-            <ul class="nav__ul nav__ul--extra">
-              <!-- <li><a href="#">Hardware Design</a></li>
-                <li><a href="#">Software Design</a></li>
-                <li><a href="#">Digital Signage</a></li>
-                <li><a href="#">Automation</a></li>
-                <li><a href="#">Artificial Intelligence</a></li>
-                <li><a href="#">IoT</a></li> -->
-            </ul>
-          </li>
-          <li class="nav__item">
-            <!-- <h2 class="nav__title">Legal</h2> -->
-            <ul class="nav__ul">
-              <!-- <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Sitemap</a></li> -->
-            </ul>
-          </li>
-        </ul>
-      
-        <!-- Small, centered Typeform embed -->
-        <div class="footer__form-container">
-          <div data-tf-live="01KF851VYP9SKPJ0FRV0RK702W"></div>
-          <script src="//embed.typeform.com/next/embed.js"></script>
-        </div>
-      
-      
-        <div class="legal">
-          <p>&copy; 2026 Michel Dumais. All rights reserved.</p>
-          <div class="legal__links">
-            <span>Made with <span class="heart"> ♥ </span> from Athbasca University</span>
-          </div>
-        </div>
-      </footer>
-
-  <!-- ================================
-         SCRIPTS
-    ================================= -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <!-- <script src="./js/ascii-graphics.js"></script>
-    -->
-  <script>
-    // Initialize settings and accessibility
-    document.addEventListener("DOMContentLoaded", () => {
-      SettingsManager.load();
-      SettingsManager.apply();
-      Accessibility.init();
-    });
-
-    // Mobile menu toggle
-    $('.menu-toggle').click(function () {
-      $('.site-nav').toggleClass('site-nav--open', 500);
-      $(this).toggleClass('open');
-    });
-  </script>
-
+  
+      <section class="content-stats">
+<div class="container">
+<h2>Stay in touch</h2>
+<p>Connect with Zion Michael Group.</p>
+<div data-tf-live="01KF851VYP9SKPJ0FRV0RK702W">
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-grid">
+<div>
+<a class="logo" href="/">Zion Michael<span>Group</span>
+</a>
+<p>Toronto, ON, Canada</p>
+<a href="mailto:micheldeosaran@proton.me">micheldeosaran@proton.me</a>
+</div>
+<div>
+<h2>Services</h2>
+<ul>
+<li>
+<a href="/services/bdr/">BDR Services</a>
+</li>
+<li>
+<a href="/services/product/">Digital Product Services</a>
+</li>
+<li>
+<a href="/services/automation/">Business Automation</a>
+</li>
+</ul>
+</div>
+<div>
+<h2>Explore</h2>
+<ul>
+<li>
+<a href="/html/members.html">Clients</a>
+</li>
+<li>
+<a href="/html/publications.html">Publications</a>
+</li>
+<li>
+<a href="/html/updates.html">Updates</a>
+</li>
+<li>
+<a href="/quote/">Request a Quote</a>
+</li>
+<li>
+<a href="https://cal.com/michel-mz/30min">Book a 30-min Call</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="container legal">© 2026 Zion Michael Group. All rights reserved.</div>
+</footer>
 </body>
-
 </html>
