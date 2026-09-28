@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a Quote | Zion Michael Group</title>
+<meta name="description" content="Tell us about your project, service interest, and timeline.">
+<link rel="icon" href="/assets/logo.png">
+<link rel="stylesheet" href="/css/services.css">
+<script src="/js/services-config.js" defer>
+</script>
+<script src="/js/booking.js" defer>
+</script>
+<script src="/js/quote.js" defer>
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+<a class="brand" href="/">Zion Michael <span>Group</span>
+</a>
+<nav aria-label="Main navigation">
+<a href="/services/">Services</a>
+<a href="/html/members.html">Clients</a>
+<a href="/html/publications.html">Publications</a>
+<a href="/quote/">Request a Quote ↗</a>
+</nav>
+</header>
+<main id="main">
+<section class="hero compact">
+<p class="eyebrow">START A CONVERSATION</p>
+<h1>Tell us what<br>you have in mind.</h1>
+<p class="intro">Share your scope and we’ll work out the right next step. Fields marked * are required.</p>
+</section>
+<section class="form-section">
+<form id="quote-form" action="https://formsubmit.co/micheldeosaran@proton.me" method="POST">
+<input type="hidden" name="_subject" value="New Zion Michael Group quote request">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://zionmichaelrevenue.github.io/thank-you/">
+<div class="fields">
+<label>Name *<input name="name" autocomplete="name" maxlength="120" required>
+</label>
+<label>Company *<input name="company" autocomplete="organization" maxlength="180" required>
+</label>
+<label>Email *<input name="email" type="email" autocomplete="email" maxlength="254" required>
+</label>
+<label>Phone<input name="phone" type="tel" autocomplete="tel" maxlength="50">
+</label>
+<label>Service *<select name="service" required>
+<option value="">Select service</option>
+<option value="bdr">BDR Services</option>
+<option value="product">Digital Product Services</option>
+<option value="automation">Business Automation</option>
+</select>
+</label>
+<label>Tier interest *<select name="tier" required>
+<option value="">Select tier interest</option>
+<option value="Not sure">Not sure</option>
+</select>
+</label>
+<label>Budget range<select name="budget" >
+<option value="">Select budget range</option>
+<option value="<$2k">
+<$2k</option>
+<option value="$2k–$5k">$2k–$5k</option>
+<option value="$5k–$15k">$5k–$15k</option>
+<option value="$15k+">$15k+</option>
+<option value="Not sure">Not sure</option>
+</select>
+</label>
+<label>Timeline<select name="timeline" >
+<option value="">Select timeline</option>
+<option value="ASAP">ASAP</option>
+<option value="1–3 mo">1–3 mo</option>
+<option value="3–6 mo">3–6 mo</option>
+<option value="Exploring">Exploring</option>
+</select>
+</label>
+</div>
+<label>Notes<textarea name="notes" rows="6" maxlength="10000" placeholder="What are you trying to achieve? What should we know about the scope?">
+</textarea>
+</label>
+<p>We’ll use these details to respond to your request. Submissions are processed by <a href="https://formsubmit.co/" target="_blank" rel="noopener noreferrer">FormSubmit</a>. You can also <a href="mailto:micheldeosaran@proton.me">email us directly</a>.</p>
+<p id="form-status" role="status" aria-live="polite">
+</p>
+<button class="button" type="submit">Submit quote request</button>
+</form>
+<noscript>Please enable JavaScript to select your service tier and submit a quote request.</noscript>
+</section>
+</main>
+<footer>
+<a class="brand" href="/">Zion Michael <span>Group</span>
+</a>
+<p>Toronto, ON, Canada</p>
+<p>© 2026 Zion Michael Group</p>
+<a href="/services/">Explore services</a>
+</footer>
+</body>
+</html>
