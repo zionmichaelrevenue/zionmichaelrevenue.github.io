@@ -316,6 +316,21 @@
       opacity:1 !important; transform:none !important; pointer-events:auto !important;
     }
   }
+/* Keep the full welcome name clear between the two destination links. */
+  .brand-center { width:22%; }
+  .brand-center h1 { font-size:clamp(1.6rem,3vw,3rem); line-height:1.15; }
+  @media (max-width:760px) {
+    .stage .panel { display:none; }
+    .stage.split .brand-center {
+      display:block; position:relative; inset:auto; order:-1;
+      width:100%; padding:90px 24px 30px; opacity:1; transform:none;
+    }
+    .stage.split .title-block {
+      position:relative; inset:auto; transform:none; width:100%;
+      max-width:none; padding:3rem 1.5rem;
+    }
+    .stage.split .title-right { background:rgba(127,164,255,.04); }
+  }
 </style>
 </head>
 <body>
@@ -354,7 +369,7 @@
 
     <div class="brand-center" id="brandCenter">
       <span class="eyebrow">Welcome to</span>
-      <h1>ZM</h1>
+      <h1>Zeon Michael</h1>
     </div>
 
   </main>
