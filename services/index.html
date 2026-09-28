@@ -6,52 +6,61 @@
 <title>Services | Zion Michael Group</title>
 <meta name="description" content="Sales development, digital products, and business automation for growing businesses.">
 <link rel="icon" href="/assets/logo.png">
+<link rel="stylesheet" href="/css/styles-boilerplate.css">
 <link rel="stylesheet" href="/css/services.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="/js/services-navigation.js" defer></script>
 <script src="/js/services-config.js" defer>
 </script>
 <script src="/js/booking.js" defer>
 </script>
 </head>
-<body>
+<body class="services-page">
 <a class="skip" href="#main">Skip to content</a>
-<header class="header">
-<a class="brand" href="/">Zion Michael <span>Group</span>
-</a>
-<nav aria-label="Main navigation">
-<a href="/services/">Services</a>
-<a href="/html/members.html">Clients</a>
-<a href="/html/publications.html">Publications</a>
-<a href="/quote/">Request a Quote ↗</a>
-</nav>
+<header>
+  <nav aria-label="Main navigation">
+    <div class="container">
+      <h1 class="logo"><a href="/">Zion Michael<br><span>Group</span></a></h1>
+      <ul class="site-nav" id="site-navigation">
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/html/members.html">Clients</a></li>
+        <li><a href="/html/publications.html">Publications</a></li>
+        <li><a href="/html/updates.html">Updates</a></li>
+      </ul>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation"><span class="hamburger"></span></button>
+    </div>
+  </nav>
 </header>
 <main id="main">
-<section class="hero">
+<section class="info">
 <p class="eyebrow">THREE WAYS TO MOVE FORWARD</p>
 <h1>Build your next<br>stage of growth.</h1>
-<p class="intro">Reach the right customers. Ship your product. Make the day-to-day run better.</p>
+<p class="tagline">Reach the right customers. Ship your product. Make the day-to-day run better.</p>
 <div class="actions">
-<a class="button" href="/quote/">Request a Quote</a>
-<a class="button secondary" href="#booking">Book a Call</a>
+<a class="btn-primary" href="/quote/">Request a Quote</a>
+<a class="btn-secondary" href="#booking">Book a Call</a>
 </div>
 </section>
-<section>
+<section class="content-stats"><div class="container service-section">
 <h2>Services built around your business.</h2>
 <div class="service-grid">
-<article class="card">
+<article class="stat-box service-card">
 <p class="eyebrow">BIZ-01</p>
 <h3>BDR Services</h3>
 <p>Outbound that books meetings, not just sends emails.</p>
 <p>Build a consistent outbound motion with targeted research, personalized outreach, and qualified conversations.</p>
 <a class="text-link" href="/services/bdr/">Explore service & pricing →</a>
 </article>
-<article class="card">
+<article class="stat-box service-card">
 <p class="eyebrow">BIZ-02</p>
 <h3>Digital Product Services</h3>
 <p>Ship the product. Skip the hiring.</p>
 <p>Move from a defined idea to a usable product with focused development, design, and a clear delivery scope.</p>
 <a class="text-link" href="/services/product/">Explore service & pricing →</a>
 </article>
-<article class="card">
+<article class="stat-box service-card">
 <p class="eyebrow">BIZ-03</p>
 <h3>Business Automation</h3>
 <p>Stop doing the work a system should do.</p>
@@ -59,23 +68,21 @@
 <a class="text-link" href="/services/automation/">Explore service & pricing →</a>
 </article>
 </div>
-</section>
-<section id="booking" class="booking">
+</div></section>
+<section id="booking" class="content-stats booking"><div class="container service-section">
 <p class="eyebrow">LET’S TALK SCOPE</p>
 <h2>Book a 30-min Call</h2>
 <p>Choose a time for a discovery call about your business and the right next step.</p>
 <div data-calendar>
 </div>
 <p data-booking-status role="status">Booking will be available here once our calendar is connected.</p>
-<a class="button secondary" data-booking-link hidden>Open calendar</a>
-</section>
+<a class="btn-secondary" data-booking-link hidden>Open calendar</a>
+</div></section>
 </main>
-<footer>
-<a class="brand" href="/">Zion Michael <span>Group</span>
-</a>
-<p>Toronto, ON, Canada</p>
-<p>© 2026 Zion Michael Group</p>
-<a href="/services/">Explore services</a>
+<footer class="footer">
+  <div class="footer__addr"><address><h4>Zion Michael Group</h4>Toronto, ON, Canada<br><br><a class="footer__btn" href="mailto:micheldeosaran@proton.me">Contact Us</a></address></div>
+  <ul class="footer__nav"><li class="nav__item"><h2 class="nav__title">Services</h2><ul class="nav__ul"><li><a href="/services/bdr/">BDR Services</a></li><li><a href="/services/product/">Digital Product Services</a></li><li><a href="/services/automation/">Business Automation</a></li></ul></li></ul>
+  <div class="legal"><p>© 2026 Zion Michael Group. All rights reserved.</p></div>
 </footer>
 </body>
 </html>
